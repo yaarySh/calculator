@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style></style>
+    <script src="javascript.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <input
+      id="subDisplayBar"
+      type="text"
+      style="
+        width: 200px;
+        height: 20px;
+        font-size: 12px;
+        margin-bottom: 5px;
+        background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+      "
+    />
+    <br />
+    <input
+      id="displayBar"
+      style="
+        width: 200px;
+        height: 40px;
+        font-size: 24px;
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        padding: 5px;
+      "
+    />
+    <br />
+    <button class="button" onclick="displayNum(1)">1</button>
+    <button class="button" onclick="displayNum(2)">2</button>
+    <button class="button" onclick="displayNum(3)">3</button>
+    <button class="button" onclick="plus()">+</button>
+    <br />
+    <button class="button" onclick="displayNum(4)">4</button>
+    <button class="button" onclick="displayNum(5)">5</button>
+    <button class="button" onclick="displayNum(6)">6</button>
+    <button class="button" onclick="minus()">-</button>
+    <br />
+    <button class="button" onclick="displayNum(7)">7</button>
+    <button class="button" onclick="displayNum(8)">8</button>
+    <button class="button" onclick="displayNum(9)">9</button>
+    <button class="button" onclick="devided()">÷</button>
+    <br />
+    <button class="button" onclick="clearResult()">C</button>
+    <button class="button" onclick="displayNum(0)">0</button>
+    <button class="button" onclick="equels()">=</button>
+    <button class="button" onclick="multiply()">X</button>
+  </body>
+</html>
